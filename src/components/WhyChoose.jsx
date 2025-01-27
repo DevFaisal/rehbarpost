@@ -55,12 +55,10 @@ function WhyChoose() {
 
 function Card({ icon, title, description }) {
   return (
-    <div className="group p-6 rounded-xl hover:bg-gray-800 hover:dark:bg-orange-50 transition-colors duration-300">
+    <div className="p-6 rounded-xl hover:bg-gray-800 hover:dark:bg-orange-50 transition-colors duration-300">
       <div className="flex items-center gap-4 mb-3">
         <span className="flex-shrink-0">{icon}</span>
-        <h2 className="font-semibold text-xl md:text-2xl ">
-          {title}
-        </h2>
+        <h2 className="font-semibold text-xl md:text-2xl ">{title}</h2>
       </div>
       <p className="text-gray-600 ml-14">{description}</p>
     </div>

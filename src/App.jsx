@@ -21,29 +21,30 @@ function App() {
           initial={{ y: -100 }}
           animate={{ y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
+          className=""
         >
           <TopSection />
         </motion.div>
 
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <section className="py-20">
+          <section className="py-0 md:py-20">
             <MidSectionOne />
           </section>
 
-          <section className="py-20">
+          <section className="py-0 md:py-20">
             <MidSectionTwo />
           </section>
 
-          <section className="py-20">
+          <section className="py-0 md:py-20">
             <WhyChoose />
           </section>
-          <section className="py-20">
+          <section className="py-0 md:py-20">
             <OurClient />
           </section>
-          <section className="py-20">
+          <section className="py-0 md:py-20">
             <TheWayWeWork />
           </section>
-          <section className="py-20">
+          <section className="py-0 md:py-20">
             <Team />
           </section>
         </div>

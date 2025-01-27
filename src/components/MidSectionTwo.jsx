@@ -32,11 +32,10 @@ function MidSectionTwo() {
     <div className="relative  overflow-hidden">
       <div className="relative max-w-7xl mx-auto px-4 py-24">
         <div className="flex flex-col lg:flex-row items-center gap-16">
-          {/* Left Content */}
           <div className="flex-1 space-y-6 text-center lg:text-left">
             <h2 className="text-4xl lg:text-5xl font-bold tracking-tight ">
               One place to manage
-              <span className="relative whitespace-nowrap text-orange-600">
+              <span className="relative whitespace-normal lg:whitespace-nowrap text-orange-600">
                 <span className="relative"> all your shipments</span>
                 <div className="absolute -bottom-2 left-0 w-full h-2 bg-orange-200/50 -skew-x-6" />
               </span>
@@ -77,17 +76,14 @@ function InfoCard({
 }) {
   return (
     <div
-      className={`group relative bg-white rounded-2xl transition-all duration-300 hover:-translate-y-1 ${className}`}
+      className={`group relative  rounded-2xl transition-all duration-300 hover:-translate-y-1 ${className}`}
     >
       <div
-        className={`absolute inset-0 rounded-2xl bg-gradient-to-r ${color} opacity-10 group-hover:opacity-15 transition-opacity blur-xl`}
-      />
-      <div
-        className={`relative p-6 bg-white rounded-2xl shadow-lg group-hover:shadow-xl ${shadowColor} transition-all duration-300`}
+        className={`relative p-6  rounded-2xl shadow-lg group-hover:shadow-xl ${shadowColor} transition-all duration-300`}
       >
         <div className="flex items-start gap-4">
           <div
-            className={`p-3 rounded-xl bg-gradient-to-r ${color} text-white`}
+            className={`p-3 rounded-xl bg-gradient-to-r ${color} `}
           >
             <Icon className="w-6 h-6" />
           </div>
