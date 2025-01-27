@@ -53,7 +53,7 @@ const TopSection = () => {
           </section>
 
           <section className="w-full hidden lg:grid lg:w-1/2 relative">
-            <div className="relative bg-gradient-to-r from-orange-300 to-rose-300 rounded-full p-5 shadow-xl overflow-visible">
+            <div className="relative bg-gradient-to-r from-orange-900 to-rose-900 dark:from-orange-300 dark:to-rose-300 rounded-full p-5 shadow-xl overflow-visible">
               <img
                 className="w-full h-[400px] lg:h-[600px] object-cover "
                 src={dboy}

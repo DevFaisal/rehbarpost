@@ -71,9 +71,9 @@ const OurClient = () => {
 
 function ClientCard({ name, role, image, content, rating }) {
   return (
-    <div className="relative flex-shrink-0 w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] border-[0.1px] bg-white  rounded-2xl shadow-lg hover:shadow-xl overflow-hidden">
+    <div className="relative flex-shrink-0 w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] border-[0.1px] bg-gray-600 dark:bg-white rounded-2xl shadow-lg hover:shadow-xl overflow-hidden">
       <div className="h-full   transition-all duration-300 p-8 relative ">
-        <div className="absolute -right-6 -top-6 text-orange-100">
+        <div className="absolute -right-6 -top-6 ">
           <BsQuote className="w-24 h-24 transform rotate-180" />
         </div>
 
@@ -91,8 +91,8 @@ function ClientCard({ name, role, image, content, rating }) {
               />
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-900">{name}</h3>
-              <p className="text-gray-600">{role}</p>
+              <h3 className="text-xl font-semibold">{name}</h3>
+              <p className="text-gray-300">{role}</p>
             </div>
           </div>
 
@@ -102,7 +102,7 @@ function ClientCard({ name, role, image, content, rating }) {
             ))}
           </div>
 
-          <blockquote className="text-gray-600 leading-relaxed">
+          <blockquote className="text-gray-400 leading-relaxed">
             "{content}"
           </blockquote>
         </div>
