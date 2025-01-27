@@ -8,7 +8,7 @@ import CountUp from "react-countup";
 const TopSection = () => {
   return (
     <Container>
-      <main className="flex flex-col lg:flex-row min-h-[calc(100vh-80px)] md:pt-0 pt-50 items-center gap-12 py-12">
+      <main className="flex flex-col lg:flex-row min-h-[calc(100vh-80px)] md:pt-0 pt-30 items-center gap-12 py-12">
         <section className="flex-1 space-y-8 text-center lg:text-left">
           <article className="space-y-4">
             <h1 className="text-5xl sm:text-5xl lg:text-8xl font-bold tracking-tight">
@@ -43,7 +43,7 @@ const TopSection = () => {
             />
           </div>
 
-          <div className="hidden lg:flex gap-8 pt-12">
+          <div className="flex flex-row gap-8 pt-12">
             <Stat number={10} endLabel="K" label="Active Users" />
             <Stat number={99} endLabel={"%"} label="Delivery Rate" />
             <Stat number={24} endLabel={"/7"} label="Support" />
