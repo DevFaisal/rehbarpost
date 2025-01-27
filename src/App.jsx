@@ -56,7 +56,7 @@ function App() {
 
       <Footer />
       <div className="absolute top-1/2 left-0 w-64 h-64 bg-orange-200/20 rounded-full blur-3xl -z-10" />
-      <div className="absolute bottom-0 right-0 w-96 h-96 bg-blue-200/10 rounded-full blur-3xl -z-10" />
+      <div className="absolute bottom-210 right-10 w-96 h-96 bg-orange-200/10 rounded-full blur-3xl -z-10" />
     </div>
   );
 }
