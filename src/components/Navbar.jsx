@@ -14,8 +14,8 @@ function NavBar() {
 
   return (
     <section className="">
-      <nav className="container mx-auto max-w-[80%] px-4 md:px-0 flex justify-between items-center py-1">
-        <div className="flex items-center gap-3">
+      <nav className="container mx-auto max-w-full px-4 md:px-0 flex justify-between items-center py-1">
+        <div className="flex items-center gap-1">
           <img
             width={60}
             src="https://www.rehbarpost.com/assets/img/logo/ShipeezLogo.png"
@@ -31,7 +31,7 @@ function NavBar() {
             <a
               key={idx}
               href={item.link}
-              className="text-gray-500 text-sm hover:text-orange-600 hover:underline hover:duration-500"
+              className="text-gray-500 p-2 text-sm hover:text-orange-600 hover:underline hover:duration-500"
             >
               {item.name}
             </a>
@@ -60,7 +60,7 @@ function NavBar() {
       </nav>
 
       {isMobileMenuOpen && (
-        <div className="md:hidden bg-slate-800 text-white dark:bg-white shadow-md">
+        <div className="md:hidden bg-slate-800  dark:bg-white shadow-md">
           <div className="flex flex-col items-center gap-4 py-4">
             {navItems.map((item, idx) => (
               <a
