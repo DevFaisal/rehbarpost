@@ -11,7 +11,7 @@ const TopSection = () => {
       <main className="flex flex-col lg:flex-row min-h-[calc(100vh-80px)] md:pt-0 pt-20 items-center gap-12 py-12">
         <section className="flex-1 space-y-8 text-center lg:text-left">
           <article className="space-y-4">
-            <h1 className="text-5xl sm:text-5xl lg:text-8xl font-bold tracking-tight">
+            <h1 className="text-5xl sm:text-5xl lg:text-8xl font-bold tracking-tight text-nowrap">
               <span className="text-orange-600 inline-block transform hover:scale-105 transition-transform duration-300">
                 Rehbar
               </span>
@@ -53,7 +53,7 @@ const TopSection = () => {
         <section className="w-full hidden lg:grid lg:w-1/2 relative">
           <div className="relative bg-gradient-to-r from-orange-900 to-rose-900 dark:from-orange-300 dark:to-rose-300 rounded-full p-5 shadow-xl overflow-visible">
             <img
-              className="w-full h-[400px] lg:h-[600px] object-cover "
+              className="w-full h-[400px] lg:h-[600px] object-cover rounded-2xl"
               src={dboy}
               alt="Delivery boy"
             />

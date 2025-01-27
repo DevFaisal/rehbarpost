@@ -14,7 +14,7 @@ function NavBar() {
 
   return (
     <section className="">
-      <nav className="container mx-auto max-w-full px-4 md:px-0 flex justify-between items-center py-1">
+      <nav className="container mx-auto max-w-full md:max-w-[80%] px-4 md:px-0 flex justify-between items-center py-1">
         <div className="flex items-center gap-1">
           <img
             width={60}
