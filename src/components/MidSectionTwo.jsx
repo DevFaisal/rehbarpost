@@ -54,7 +54,7 @@ function MidSectionTwo() {
                 <InfoCard
                   key={index}
                   {...card}
-                  className={index === 2 ? "sm:col-span-2" : ""}
+                  className={index === 0 ? "sm:col-span-2" : ""}
                 />
               ))}
             </div>
@@ -76,25 +76,25 @@ function InfoCard({
 }) {
   return (
     <div
-      className={`group relative  rounded-2xl transition-all duration-300 hover:-translate-y-1 ${className}`}
+      className={`group relative bg-slate-600 dark:bg-white  rounded-2xl transition-all duration-300 hover:-translate-y-1 ${className}`}
     >
       <div
-        className={`relative p-6  rounded-2xl shadow-lg group-hover:shadow-xl ${shadowColor} transition-all duration-300`}
+        className={`relative p-6 rounded-2xl shadow-lg group-hover:shadow-xl ${shadowColor} transition-all duration-300`}
       >
         <div className="flex items-start gap-4">
           <div
-            className={`p-3 rounded-xl bg-gradient-to-r ${color} `}
+            className={`p-3 rounded-xl bg-gradient-to-r ${color}`}
           >
             <Icon className="w-6 h-6" />
           </div>
           <div className="space-y-1">
             <div className="flex items-baseline gap-1">
-              <h3 className="text-4xl font-bold bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
+              <h3 className="text-4xl font-bold bg-gradient-to-r text-white dark:text-black bg-clip-text">
                 {num}
               </h3>
             </div>
-            <p className="text-lg font-semibold text-gray-900">{heading}</p>
-            <p className="text-sm text-gray-600">{tag}</p>
+            <p className="text-lg font-semibold text-gray-400">{heading}</p>
+            <p className="text-sm text-gray-300">{tag}</p>
           </div>
         </div>
       </div>
