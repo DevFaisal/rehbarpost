@@ -20,8 +20,8 @@ function ThemeProvider() {
 
   return (
     <button onClick={handleTheme}>
-      {theme == "light" && <IoSunny />}
-      {theme == "dark" && <IoMoon />}
+      {theme == "light" && <IoSunny className="text-white" />}
+      {theme == "dark" && <IoMoon className="text-black" />}
     </button>
   );
 }
