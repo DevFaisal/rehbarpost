@@ -9,6 +9,7 @@ import { motion } from "motion/react";
 import NavBar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Team from "./components/Team";
+import ShippingDiscounts from "./components/ShippingDiscounts";
 
 function App() {
   return (
@@ -43,6 +44,9 @@ function App() {
           </section>
           <section className="py-0 md:py-20">
             <TheWayWeWork />
+          </section>
+          <section className="py-0 md:py-20">
+            <ShippingDiscounts />
           </section>
           <section className="py-0 md:py-20">
             <Team />

@@ -2,6 +2,7 @@ import React from "react";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -53,6 +54,23 @@ const Footer = () => {
               <FaLinkedin size={40} />
             </li>
           </ul>
+          <div className="flex flex-col pt-8">
+            <label className="text-wrap font-semibold">
+              Subscribe our newsletter to get the latest news & updates.
+            </label>
+            <div className="flex justify-between outline-none bg-white text-black rounded-md">
+              <input
+                className="outline-none px-2 py-3 "
+                placeholder="Email Address"
+                type="text"
+                name=""
+                id=""
+              />
+              <button className="bg-orange-300 p-4 rounded-r-md hover:bg-orange-500 duration-500">
+                <FaArrowRight />
+              </button>
+            </div>
+          </div>
         </section>
       </div>
 
