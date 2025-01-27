@@ -13,13 +13,13 @@ const TopSection = () => {
         <main className="flex flex-col lg:flex-row min-h-[calc(100vh-80px)] md:pt-0 pt-50 items-center gap-12 py-12">
           <section className="flex-1 space-y-8 text-center lg:text-left">
             <article className="space-y-4">
-              <h1 className="text-5xl sm:text-5xl lg:text-7xl font-bold tracking-tight">
+              <h1 className="text-5xl sm:text-5xl lg:text-8xl font-bold tracking-tight">
                 <span className="text-orange-600 inline-block transform hover:scale-105 transition-transform duration-300">
                   Rehbar
                 </span>
                 <span className="relative ">
                   {""} Post
-                  <div className="absolute -bottom-2 left-0 w-full h-2 bg-orange-200/50 -skew-x-6" />
+                  <div className="absolute -bottom-1 left-0 w-full h-2 bg-orange-200/50 -skew-x-6" />
                 </span>
               </h1>
               <h3 className="text-xl sm:text-2xl lg:text-3xl text-gray-600 font-medium">
