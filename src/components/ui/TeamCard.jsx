@@ -3,7 +3,7 @@ import React from "react";
 
 function TeamCard({ name, role, image, content }) {
   return (
-    <div className="relative h-full md:h-63  w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] border-[0.1px] bg-gray-600 dark:bg-white ring-1 ring-violet-500 rounded-2xl shadow-lg hover:shadow-xl overflow-hidden">
+    <div className="relative h-full md:h-63  w-fit sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] border-[0.1px] bg-gray-600 dark:bg-white ring-1 ring-violet-500 rounded-2xl shadow-lg hover:shadow-xl overflow-hidden">
       <div className="h-full transition-all duration-300 p-8 relative ">
         <div className="flex flex-col justify-between h-full">
           <div className="flex items-center gap-4">

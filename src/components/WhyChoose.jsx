@@ -7,7 +7,7 @@ import pic from "../assets/image.jpg";
 
 function WhyChoose() {
   return (
-    <main className="min-h-screen py-16 px-4 md:px-8 lg:px-16">
+    <main className="py-16 px-4 md:px-8 lg:px-16">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
         <section className="w-full lg:w-1/2">
           <div className="bg-amber-100 p-4 rounded-3xl overflow-hidden">

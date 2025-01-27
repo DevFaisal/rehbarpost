@@ -28,9 +28,9 @@ const Team = () => {
   ];
 
   return (
-    <div className="flex flex-col justify-center gap-20 md:h-[50vh] py-10 items-center">
+    <div className="flex flex-col justify-center gap-20 py-10 items-center">
       <TextEffect ist={"Meet Our Professional "} sec={"Team"} />
-      <section className="flex flex-wrap gap-3">
+      <section className="flex flex-wrap gap-3 w-full px-3">
         {teamMembers.map((member, idx) => (
           <TeamCard key={idx} {...member} />
         ))}

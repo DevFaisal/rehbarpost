@@ -29,7 +29,7 @@ function MidSectionTwo() {
   ];
 
   return (
-    <div className="relative  overflow-hidden">
+    <div className="relative min-h-[calc[90vh-80px]]  overflow-hidden">
       <div className="relative max-w-7xl mx-auto px-4 py-24">
         <div className="flex flex-col lg:flex-row items-center gap-16">
           <div className="flex-1 space-y-6 text-center lg:text-left">
