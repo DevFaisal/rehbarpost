@@ -1,5 +1,6 @@
 import React from "react";
 import { BsPersonCircle, BsStarFill, BsQuote } from "react-icons/bs";
+import TextEffect from "./ui/TextEffect";
 
 const testimonials = [
   {
@@ -44,13 +45,7 @@ const OurClient = () => {
     <section className="relative py-24 overflow-hidden">
       <div className="relative max-w-7xl mx-auto px-4">
         <div className="text-center space-y-4 mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold ">
-            Words of Trust From
-            <span className="relative whitespace-nowrap">
-              <span className="relative text-orange-600"> Our Clients</span>
-              <div className="absolute -bottom-2 left-0 w-full h-2 bg-orange-200/50 -skew-x-6" />
-            </span>
-          </h2>
+          <TextEffect ist={"  Words of Trust From "} sec={"Our Clients"} />
           <p className="text-gray-600 max-w-2xl mx-auto">
             See what our valued customers have to say about their experience
             with Rehbar Post
@@ -72,7 +67,7 @@ const OurClient = () => {
 function ClientCard({ name, role, image, content, rating }) {
   return (
     <div className="relative flex-shrink-0 w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] border-[0.1px] bg-gray-600 dark:bg-white rounded-2xl shadow-lg hover:shadow-xl overflow-hidden">
-      <div className="h-full   transition-all duration-300 p-8 relative ">
+      <div className="h-full transition-all duration-300 p-8 relative ">
         <div className="absolute -right-6 -top-6 ">
           <BsQuote className="w-24 h-24 transform rotate-180" />
         </div>

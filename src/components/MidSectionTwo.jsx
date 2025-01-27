@@ -82,9 +82,7 @@ function InfoCard({
         className={`relative p-6 rounded-2xl shadow-lg group-hover:shadow-xl ${shadowColor} transition-all duration-300`}
       >
         <div className="flex items-start gap-4">
-          <div
-            className={`p-3 rounded-xl bg-gradient-to-r ${color}`}
-          >
+          <div className={`p-3 rounded-xl bg-gradient-to-r ${color}`}>
             <Icon className="w-6 h-6" />
           </div>
           <div className="space-y-1">

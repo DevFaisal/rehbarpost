@@ -1,6 +1,7 @@
 import { BsBox } from "react-icons/bs";
 import { GoPackage } from "react-icons/go";
 import { LuRotateCcwSquare } from "react-icons/lu";
+import TextEffect from "./ui/TextEffect";
 
 function MidSectionOne() {
   const cardData = [
@@ -34,13 +35,7 @@ function MidSectionOne() {
     <div className="relative  overflow-hidden">
       <section className="relative max-w-7xl mx-auto px-4 py-24">
         <div className="text-center space-y-4 mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold ">
-            Transport and Logistics
-            <span className="relative whitespace-nowrap">
-              <span className="relative"> Solution</span>
-              <div className="absolute -bottom-2 left-0 w-full h-2 bg-orange-200/50 -skew-x-6" />
-            </span>
-          </h2>
+          <TextEffect ist={"Transport and Logistics "} sec={"Solution"} />
           <p className="text-gray-600 max-w-2xl mx-auto">
             Comprehensive shipping solutions designed to meet your business
             needs with reliability and efficiency
