@@ -13,7 +13,7 @@ function NavBar() {
   ];
 
   return (
-    <section className="">
+    <section className="dark:bg-orange-50">
       <nav className="container mx-auto max-w-full md:max-w-[80%] px-4 md:px-0 flex justify-between items-center py-1">
         <div className="flex items-center gap-1">
           <img
