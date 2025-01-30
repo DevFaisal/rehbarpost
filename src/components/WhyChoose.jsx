@@ -22,7 +22,7 @@ function WhyChoose() {
         <section className="w-full lg:w-1/2 space-y-8">
           <div className="space-y-4">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-orange-500">
-              Why choose Rehbar Post?
+              Why Choose Rehbar Post?
             </h1>
             <p className="text-gray-600 text-lg">
               We provide comprehensive and efficient shipping solutions tailored

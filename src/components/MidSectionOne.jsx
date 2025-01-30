@@ -32,10 +32,10 @@ function MidSectionOne() {
   ];
 
   return (
-    <div className="relative  overflow-hidden">
+    <div className="relative  overflow-hidden " id="service">
       <section className="relative max-w-7xl mx-auto px-4 py-24">
         <div className="text-center space-y-4 mb-16">
-          <TextEffect ist={"Transport and Logistics "} sec={"Solution"} />
+          <TextEffect ist={"Transport And Logistics "} sec={"Solution"} />
           <p className="text-gray-600 max-w-2xl mx-auto">
             Comprehensive shipping solutions designed to meet your business
             needs with reliability and efficiency
@@ -83,7 +83,7 @@ function Card({
           <p className="text-gray-400 leading-relaxed">{paragraph}</p>
         </div>
 
-        <button
+        {/* <button
           className="w-full px-6 py-3  font-semibold rounded-xl bg-gradient-to-r transition-all duration-300 transform group-hover:-translate-y-0.5 hover:shadow-lg
           hover:shadow-orange-200/20 active:translate-y-0 active:shadow-none
           from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700"
@@ -92,7 +92,7 @@ function Card({
           <span className="ml-2 inline-block transition-transform group-hover:translate-x-1">
             →
           </span>
-        </button>
+        </button> */}
       </div>
     </div>
   );

@@ -34,12 +34,12 @@ function MidSectionTwo() {
         <div className="flex flex-col lg:flex-row items-center gap-16">
           <div className="flex-1 space-y-6 text-center lg:text-left">
             <h2 className="text-4xl lg:text-5xl font-bold tracking-tight ">
-              One place to manage
+              One Place To Manage
               <span className="relative whitespace-normal lg:whitespace-nowrap text-orange-600">
-                <span className="relative"> all your shipments</span>
+                <span className="relative"> All Your Shipments</span>
                 <div className="absolute -bottom-2 left-0 w-full h-2 bg-orange-200/50 -skew-x-6" />
               </span>
-              and orders
+              And Orders
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto lg:mx-0">
               We have the capability to tailor solutions for individual

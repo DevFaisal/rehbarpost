@@ -40,7 +40,7 @@ const LeftSection = () => (
     </p>
 
     <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-      <Button
+      {/* <Button
         text="Get Started"
         type="primary"
         icon={<FaArrowRight className="w-5 h-5" />}
@@ -48,6 +48,17 @@ const LeftSection = () => (
       <Button
         text="Sign in"
         type="secondary"
+        icon={<GoPackage className="w-5 h-5" />}
+      /> */}
+
+      <input
+        type="text"
+        placeholder="Track your order"
+        className="px-3 py-4 bg-slate-800 dark:bg-white rounded-xl ring-1 ring-orange-600 font-semibold w-1/2"
+      />
+      <Button
+        text="Track"
+        type="primary"
         icon={<GoPackage className="w-5 h-5" />}
       />
     </div>
